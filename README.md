@@ -1,1 +1,1 @@
-# SSM
+# Spring springMvc MyBatis框架搭建
