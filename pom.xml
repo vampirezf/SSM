@@ -126,6 +126,44 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
+
+    <!--excel读取start-->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.15</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.15</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml-schemas</artifactId>
+      <version>3.15</version>
+    </dependency>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-scratchpad</artifactId>
+      <version>3.15</version>
+    </dependency>
+    <!--excel读取end-->
+    <dependency>
+      <groupId>fr.opensagres.xdocreport</groupId>
+      <artifactId>fr.opensagres.xdocreport.document</artifactId>
+      <version>1.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>fr.opensagres.xdocreport</groupId>
+      <artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
+      <version>1.0.5</version>
+    </dependency>
   </dependencies>
 
 
